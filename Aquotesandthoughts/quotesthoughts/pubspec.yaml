@@ -1,0 +1,49 @@
+name: quotesthoughts
+description: A new quotest houghts application.
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_svg:
+  auto_size_text:
+  share_plus: ^4.0.4
+  permission_handler:
+  shimmer: ^2.0.0
+  path_provider:
+  sqflite: ^2.0.2
+  firebase_analytics: ^9.0.4
+  firebase_core: ^1.16.0
+  firebase_messaging: ^11.2.6
+  cloud_firestore: ^3.1.5
+  firebase_storage: ^10.2.8
+  google_mobile_ads: ^2.0.1
+  email_validator:
+  whatsapp_share2: ^2.0.2
+  url_launcher: ^6.1.5
+  shared_preferences: ^2.0.15
+  webview_flutter: ^3.0.4
+  cached_network_image:
+  package_info:
+  http:
+  html:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/Quicksand-Regular.ttf
+        - asset: assets/Quicksand-Bold.ttf
+  assets:
+    - assets/
+    - assets/quotes/
